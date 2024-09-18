@@ -1,0 +1,20 @@
+uuid: 08b607ba-be2b-4698-8ec7-52684341575f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - react_hello
+id: react_hello_messages_2
+theme: react_hello
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages to deliver'
+  label_display: visible
+  provider: system
+visibility: {  }

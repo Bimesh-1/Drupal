@@ -1,0 +1,22 @@
+uuid: d8829b3b-8f2b-445b-aed5-de06bfe9274f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - radix
+_core:
+  default_config_hash: pr3QYCTcRvWFwZ4-uxct2vWlDTF_liV-1RLiNFE5a-g
+id: radix_local_tasks
+theme: radix
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: b5924e17-96dd-4085-b93c-4d3d2508f6cc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_hello
+id: react_hello_pagetitle
+theme: react_hello
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Do you know?'
+  label_display: visible
+  provider: core
+visibility: {  }

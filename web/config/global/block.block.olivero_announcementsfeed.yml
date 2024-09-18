@@ -1,0 +1,20 @@
+uuid: c8886887-8255-4a3a-92da-c26b3ea080b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - announcements_feed
+  theme:
+    - olivero
+id: olivero_announcementsfeed
+theme: olivero
+region: sidebar
+weight: -8
+provider: null
+plugin: announce_block
+settings:
+  id: announce_block
+  label: ' Announcements Feed.  Drupal class going on'
+  label_display: visible
+  provider: announcements_feed
+visibility: {  }

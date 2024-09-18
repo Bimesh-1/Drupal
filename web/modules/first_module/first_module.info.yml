@@ -1,0 +1,4 @@
+name: First module
+description: My First Drupal 11 module
+type: module
+core_version_requirement: ^10 || ^11 || ^12

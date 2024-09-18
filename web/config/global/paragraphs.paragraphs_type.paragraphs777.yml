@@ -1,0 +1,10 @@
+uuid: 4575fa24-63cc-46f7-a73f-2b2ee7da5626
+langcode: en
+status: true
+dependencies: {  }
+id: paragraphs777
+label: Paragraphs777
+icon_uuid: null
+icon_default: null
+description: 'This is a paragraph  from team 7'
+behavior_plugins: {  }

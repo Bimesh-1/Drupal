@@ -3,6 +3,7 @@ type: theme
 description: A base theme using Drupal 9.0.0's core markup and CSS.
 package: Core
 version: VERSION
+core_version_requirement: ^10 || ^11 
 base theme: false
 hidden: true
 

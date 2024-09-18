@@ -1,0 +1,29 @@
+uuid: 02b05252-5ced-44be-a248-1e316c8a8c22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_team7_task
+    - node.type.article
+  module:
+    - entity_reference_revisions
+id: node.article.field_team7_task
+field_name: field_team7_task
+entity_type: node
+bundle: article
+label: 'Team7 task'
+description: 'Group task'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      team7_paragraphs:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

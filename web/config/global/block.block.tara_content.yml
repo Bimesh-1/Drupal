@@ -1,0 +1,22 @@
+uuid: 1d5454b7-8637-4073-a31d-66eb3cb2fa12
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tara
+_core:
+  default_config_hash: 7W5m1cGZjEB4_o0Di0lrmtWuUx1Wft0TuAVyUSgPUwQ
+id: tara_content
+theme: tara
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

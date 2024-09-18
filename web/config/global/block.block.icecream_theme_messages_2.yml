@@ -1,0 +1,20 @@
+uuid: bc8ed7bb-cb32-46fc-976a-1b5220874cbf
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - icecream_theme
+id: icecream_theme_messages_2
+theme: icecream_theme
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages to deliver'
+  label_display: visible
+  provider: system
+visibility: {  }

@@ -1,0 +1,19 @@
+uuid: 7942dd17-2188-460b-9b95-9394c0016483
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.team7_paragraphs
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: paragraph.team7_paragraphs.default
+targetEntityType: paragraph
+bundle: team7_paragraphs
+mode: default
+content: {  }
+hidden:
+  layout_builder__layout: true

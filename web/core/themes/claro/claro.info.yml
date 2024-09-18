@@ -17,6 +17,7 @@ description: A clean, accessible, and powerful Drupal administration theme.
 alt text: Screenshot of Claro, Drupal administration theme.
 package: Core
 version: VERSION
+core_version_requirement: ^10 || ^11 
 libraries:
   - core/drupal.message
   - core/normalize

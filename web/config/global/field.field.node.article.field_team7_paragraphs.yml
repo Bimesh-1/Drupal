@@ -1,0 +1,31 @@
+uuid: 327c5472-a699-422f-b80f-a2883e964199
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_team7_paragraphs
+    - node.type.article
+    - paragraphs.paragraphs_type.team7_paragraphs
+  module:
+    - entity_reference_revisions
+id: node.article.field_team7_paragraphs
+field_name: field_team7_paragraphs
+entity_type: node
+bundle: article
+label: Team7_Paragraphs
+description: 'This is a class task.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      team7_paragraphs: team7_paragraphs
+    negate: 0
+    target_bundles_drag_drop:
+      team7_paragraphs:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

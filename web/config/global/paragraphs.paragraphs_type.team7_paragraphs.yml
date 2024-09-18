@@ -1,0 +1,10 @@
+uuid: b14d5a4e-1d0d-4ac8-933d-b1df4e033b0b
+langcode: en
+status: true
+dependencies: {  }
+id: team7_paragraphs
+label: Team7_Paragraphs
+icon_uuid: null
+icon_default: null
+description: 'Class Project'
+behavior_plugins: {  }

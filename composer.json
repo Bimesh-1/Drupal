@@ -19,6 +19,13 @@
         "drupal/core-composer-scaffold": "^11.0",
         "drupal/core-project-message": "^11.0",
         "drupal/core-recommended": "^11.0",
+        "drupal/devel": "^5.3",
+        "drupal/gin": "^3.0@RC",
+        "drupal/paragraphs": "^1.18",
+        "drupal/radix": "^6.0@RC",
+        "drupal/tara": "^11.0",
+        "drupal/webprofiler": "^11.0",
+        "drupal/zuvi": "^11.0",
         "drush/drush": "^13.0"
     },
     "require-dev": {

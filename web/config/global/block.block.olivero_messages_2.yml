@@ -1,0 +1,20 @@
+uuid: 36ba5aef-f53e-42df-af3e-f8818a81a0ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_messages_2
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages to deliver'
+  label_display: visible
+  provider: system
+visibility: {  }

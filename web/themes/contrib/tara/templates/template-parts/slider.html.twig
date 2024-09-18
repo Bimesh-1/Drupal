@@ -1,0 +1,36 @@
+{{ attach_library('tara/slider') }}
+<section id="slider">
+	<div class="container">
+		<ul class="js-rotating home-slider">
+			{% if slider_code != '' %}
+				{{ slider_code | striptags('<ol>,<ul>,<li>,<p>,<a>,<img>,<video>,<h1>,<h2>,<h3>,<h4>,<h5>,<h6>,<em>,<strong>,<br>,<i>,<div>,<span>,<button>') | raw }}
+			{% else %}
+				<li>
+					<h1>What information you want: Sports</h1>
+					<p>Lionel Messi, Christiano Ronaldo, Messi</p>
+					<br/>
+					<a class="button" href="#">read more</a>
+				</li>
+				<li>
+					<h1>What information you want: Movies</h1>
+					<p>Japanese, korean, Hollywood, Tollywood</p>
+					<br/>
+					<a class="button" href="#">read more</a>
+				</li>
+				<li>
+					<h1>What information you want: Politics</h1>
+					<p>Joe Biden, Trump, Harris, Macron</p>
+					<br/>
+					<a class="button" href="#">read more</a>
+				</li>
+				<li>
+					<h1>What information you want: Travel</h1>
+					<p>AngkorBhat, Machupichu, Opera House</p>
+					<br/>
+					<a class="button" href="#">read more</a>
+				</li>
+			{% endif %}
+		</ul>
+		<!--/.home-slider -->
+	</div>
+</section>

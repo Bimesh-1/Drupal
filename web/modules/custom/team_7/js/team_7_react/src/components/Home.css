@@ -1,0 +1,72 @@
+/* Home.css */
+
+/* Make the hero section cover the full screen */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a7c6e7; /* Team 7 brand color */
+    color: white;
+    text-align: center;
+    width: 100vw;
+    flex-direction: column;
+  }
+  
+  /* Style the TEAM 7 text */
+  .hero-title {
+    font-size: 14rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero-text {
+    font-size: 1.2rem;
+    color: #222;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .projects, .about{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #a7c6e7;
+      color: white;
+      text-align: center;
+  
+  }
+  
+  .team-members li a{
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+  }
+  
+  .team-members li{
+      list-style: none;
+      padding: 1rem;
+      border-bottom: 1px solid #fff;
+      background-color: #222;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 3rem;
+    }
+  }

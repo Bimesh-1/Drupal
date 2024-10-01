@@ -1,0 +1,7 @@
+react_list.content:
+  path: '/team_7'
+  defaults:
+   _controller: '\Drupal\team_7\Controller\TeamSevenController::content'
+   _title: 'Team_7'
+  requirements:
+   _permission: 'access content'
